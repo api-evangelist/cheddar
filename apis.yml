@@ -1,8 +1,14 @@
 aid: cheddar
 name: Cheddar
-description: Cheddar is a company surfaced as a portfolio company of lightspeed-venture-partners, ribbit-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Cheddar is a business and technology news media company producing live and on-demand video,
+  articles, and newsletters covering financial markets, technology, innovation, entrepreneurship,
+  and culture for a modern digital audience. Founded as a millennial-focused financial news network
+  and backed by Lightspeed Venture Partners, Ribbit Capital, Comcast Ventures, and Altice USA,
+  Cheddar streams programming such as Opening Bell, Big Business This Week, and NYSE TV Live across
+  its website, connected-TV apps, and social platforms. It operates as a digital media and content
+  publisher rather than an API or developer-platform company; this profile tracks Cheddar within the
+  API Evangelist network and carries no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/cheddar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +17,30 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cheddar.com/pf/resources/img/favicons/che/apple-touch-icon.png
 tags:
 - Company
+- Media
+- News
+- Business News
+- Video
+- Streaming
+- Technology
+- Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cheddar-domain-security.yml
 - type: Website
   url: https://www.cheddar.com
+- type: Blog
+  url: https://www.cheddar.com/m/rss/
+- type: TermsOfService
+  url: https://www.cheddar.com/terms/
+- type: PrivacyPolicy
+  url: https://www.cheddar.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

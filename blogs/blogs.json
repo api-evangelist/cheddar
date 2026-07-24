@@ -1,0 +1,14 @@
+{
+  "repo": "cheddar",
+  "feeds": [
+    {
+      "source": "https://www.cheddar.com",
+      "feed_url": "https://www.cheddar.com/feed/",
+      "title": "",
+      "saved": 25,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 25,
+  "fetched": "2026-07-20T13:31:34Z"
+}
