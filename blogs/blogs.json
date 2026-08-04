@@ -2,13 +2,20 @@
   "repo": "cheddar",
   "feeds": [
     {
-      "source": "https://www.cheddar.com",
+      "source": "https://www.cheddar.com/feed/",
       "feed_url": "https://www.cheddar.com/feed/",
       "title": "",
-      "saved": 25,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.cheddar.com",
+      "feed_url": "https://www.cheddar.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 25,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 50,
+  "fetched": "2026-08-01T15:49:00Z"
 }
